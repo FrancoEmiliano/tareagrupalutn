@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    color: green;
+
+}
+
+.fiatAmarillo{  
+    color: yellow;
+}
+.renaultBlanco{
+    color: white;
+}
+.tipografiaNueva{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#parrafoNaranja{
+    color: orange;
+}

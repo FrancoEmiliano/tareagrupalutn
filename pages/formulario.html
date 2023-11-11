@@ -7,9 +7,45 @@
 </head>
 <body>
     <h1>Formulario de contacto</h1>
-    <form action="">
-        <label for=""></label>
-        <input type="text">
+
+    <form action="" method="post">
+        
+        <label for="nombre">Nombre: </label>  <br>
+        <input type="text" id="nombre" name="nombre"  required>  <br>
+
+        <label for="apellido">Apellido: </label> <br>
+        <input type="text" id="apellido" name="apellido" autofocus>        <br>
+
+        <label for="dni">DNI: </label>  <br>
+        <input type="number" id="dni" name="dni" maxlength="8">  <br>
+
+        <label for="password">Password: </label>  <br>
+        <input type="password" id="password" name="password" minlength="8">  <br>
+
+        <label for="email">Email: </label>   <br>
+        <input type="email" id="email" pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}" name="email" placeholder="pepe@gmail.com">
+
+        <input type="submit" value="Enviar datos"> <br>
+
+        <button>
+            Envio data con Button
+        </button>
+
     </form>
+    
+    <div>
+        <button>
+            <a href="../index.html#piedepagina">Ruta Relativa</a>
+        </button>
+    </div>
+    <div>
+        <button>
+            <a href="https://www.frc.utn.edu.ar/" target="_blank">Ruta Absoluta</a>
+        </button>
+    </div>
+
+    <img src="https://lapaginamillonaria.com/__export/1671475141269/sites/lpm/img/2022/12/19/gettyimages-1450151773_crop1671475139561.jpg_1546398727.jpg" alt="Messi en la seleccion">
+
+
 </body>
 </html>
